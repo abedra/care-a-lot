@@ -3,7 +3,7 @@
         clojure.contrib.json.read)
   (:require [clojure.http.client :as http]))
 
-(def care-bear "relevance")
+(def care-bear "abedra")
 
 (defn fetch-repositories
   []
@@ -72,8 +72,7 @@
         [:th "Is it a Fork?"]
         [:th "# Forks"]
         [:th "Last Pushed"]]]
-      [:tbody (format-repositories)]]]
-    ]))
+      [:tbody (format-repositories)]]]]))
 
 (defroutes care-a-lot-routes
   (GET "/" index)
