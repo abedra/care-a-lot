@@ -1,3 +1,5 @@
+## This project is no longer under active development
+
 # Care a Lot
 
 Do you have a lot of open source projects on Github? Do you ever
